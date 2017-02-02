@@ -1,6 +1,6 @@
 
 var snake;
-var scl = 20;
+var scl = 30;
 var food;
 var lastKey;
 var gamePaused = true;
@@ -20,6 +20,8 @@ function setup() {
 
 function draw() {
   background(50);
+  fill(255);
+  text(snake.total, 555, 25);
 
   if(!gamePaused){
 
