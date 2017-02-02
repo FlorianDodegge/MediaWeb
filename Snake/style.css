@@ -1,0 +1,23 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    /* This centers our sketch horizontally. */
+
+    /* This centers our sketch vertically. */
+    align-items: center;
+
+    background-color: green;
+}
+
+p  { 
+    font-size: 3em; 
+    font-family: sans-serif;
+    }
+
