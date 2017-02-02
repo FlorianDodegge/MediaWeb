@@ -13,7 +13,7 @@ body {
     /* This centers our sketch vertically. */
     align-items: center;
 
-    background-color: green;
+    background-color: rgb(80,180,130);
 }
 
 p  { 
